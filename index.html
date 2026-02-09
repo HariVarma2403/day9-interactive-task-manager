@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Task Manager</h1>
+
+    <div class="input-section">
+      <input id="taskInput" type="text" placeholder="Enter a task" />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="filters">
+      <button data-filter="all">All</button>
+      <button data-filter="completed">Completed</button>
+      <button data-filter="pending">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
